@@ -164,6 +164,9 @@ html{
     transform: scale(1.1);
 }
 
+.hidden{
+    display: none;       
+}
 
 @media (max-width:800px) {
     
@@ -254,11 +257,22 @@ html{
         border-bottom: none;
     }
 
-    .hidden{
+    .hidden-responsive{
         display: none;
     }
 
     .show{
         display: block;
     }
+
+    .header-article{
+        width: 30%;
+        max-width: 200px;
+        height: 310px;
+        position: absolute;
+        top: 180px;
+        left: 300px;
+    }
+
+    
 }
